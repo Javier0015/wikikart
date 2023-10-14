@@ -35,7 +35,7 @@ Route::get('/create', [UsuarioController::class, 'create'])->name('usuario.creat
 Route::resource('usuarios', App\Http\Controllers\UsuarioController::class)->middleware('auth');
 
 Route::get('/peach', function () {
-    return view('Personajes.index');
+    return view('Personajes.Index');
 });
 
 Route::get('/waluigi2', function () {
