@@ -15,7 +15,7 @@
   <!--
     - custom css link y Manifiest
   -->
-  <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+  <link rel="stylesheet" href="assets/css/style.css">
   <link rel="manifest" href="/manifest.json">
 
 
