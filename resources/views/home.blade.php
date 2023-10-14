@@ -699,7 +699,7 @@
               <div class="shop-card">
 
                 <figure class="card-banner img-holder" style="--width: 300; --height: 260;">
-                <img src="{{asset('assets/peachstyle/img/zelda.jpg')}}" width="300" height="260" loading="lazy"
+                <img src="{{asset('assets/peachstyle/img/Zelda.jpg')}}" width="300" height="260" loading="lazy"
                     alt="Virtual Reality Smiled" class="img-cover">
                 </figure>
 
