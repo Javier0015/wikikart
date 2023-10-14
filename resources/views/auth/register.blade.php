@@ -1,6 +1,14 @@
 @extends('layouts.app')
 
 @section('content')
+<style>
+    body {
+        background-image: url('/assets/images/fondo1.jpg'); /* Cambia 'ruta_de_la_imagen.jpg' con la ruta de tu imagen */
+        background-size: cover; /* Ajusta el tamaño de la imagen al contenedor */
+        background-repeat: no-repeat; /* Evita la repetición de la imagen */
+    }
+</style>
+
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
