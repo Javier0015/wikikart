@@ -12,7 +12,7 @@
   <link rel="shortcut icon" href="assets/images/icon-wikikart.png" type="image/svg+xml">
 
     <link rel="stylesheet" href="assets/peachstyle/css/css.css">
-    <link rel="stylesheet" href="asset('assets/peachstyle/css2/style.css">
+    <link rel="stylesheet" href="assets/peachstyle/css2/style.css">
 
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 
