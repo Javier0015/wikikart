@@ -13,6 +13,8 @@
     <title>Editar usuario</title>
 </head>
 <body>
+@extends('layouts.app')
+@section('content')
     <div class="video-container">
         <video autoplay muted loop id="background-video">
             <source src="{{ asset('assets/video/mariokartdeluxe.mp4') }}" type="video/mp4">
@@ -61,6 +63,7 @@
         </div>
     </div>
 </body>
+    @endsection
 </html>
 
-@endsection
+
