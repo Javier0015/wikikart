@@ -252,7 +252,7 @@ a:nth-child(1){
         width: 85%;
     }
     .icon {
-        font-size: 30px; /* Ajusta el tamaño del icono en pantallas pequeñas */
+        font-size: 18px; /* Ajusta el tamaño del icono en pantallas pequeñas */
     }
     .formbox .input-box {
         width: 100%; /* Reducir aún más el ancho en pantallas más pequeñas */
