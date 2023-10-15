@@ -1,7 +1,6 @@
+<link rel="stylesheet" href="assets/style_login.css">
 @extends('layouts.app')
 @section('content')
-
-
 
 <form action="{{ url('/usuario/'.$usuario->id ) }}" method="post">
 @csrf
