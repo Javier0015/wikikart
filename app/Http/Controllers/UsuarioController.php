@@ -7,17 +7,13 @@ use Illuminate\Http\Request;
 
 class UsuarioController extends Controller
 {
-
-    
-    
     /**
      * Display a listing of the resource.
      */
     public function index()
     {
-        //
-        $datos['usuarios']=Usuario::paginate(5);
-        return view('usuario.index',$datos );
+        $datos['usuarios'] = Usuario::paginate(5);
+        return view('usuario.index', $datos);
     }
 
     /**
@@ -25,8 +21,8 @@ class UsuarioController extends Controller
      */
     public function create()
     {
-        //
-        return view('usuario.create');
+        $usuario = new Usuario();  // Crear una nueva instancia de Usuario
+        return view('usuario.create', compact('usuario'));
     }
 
     /**
@@ -34,14 +30,10 @@ class UsuarioController extends Controller
      */
     public function store(Request $request)
     {
-        //
-        //$datosUsuario = request()->all();
-        $datosUsuario = request()->except('_token');
+        $datosUsuario = $request->except('_token');
         Usuario::insert($datosUsuario);
 
-      //  return response()->json($datosUsuario);
-      return redirect ('usuario')->with('mensaje', 'Usuario agregado con exito');
-
+        return redirect('usuario')->with('mensaje', 'Usuario agregado con éxito');
     }
 
     /**
@@ -49,7 +41,7 @@ class UsuarioController extends Controller
      */
     public function show(Usuario $usuario)
     {
-        //
+        // Aquí puedes implementar la lógica para mostrar un usuario específico si es necesario
     }
 
     /**
@@ -57,8 +49,7 @@ class UsuarioController extends Controller
      */
     public function edit($id)
     {
-        //
-        $usuario=Usuario::findOrFail($id);
+        $usuario = Usuario::findOrFail($id);
         return view('usuario.edit', compact('usuario'));
     }
 
@@ -67,13 +58,11 @@ class UsuarioController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
-        $datosUsuario = request()->except(['_token','_method']);
-        Usuario::where('id','=',$id)->update($datosUsuario);
+        $datosUsuario = $request->except(['_token', '_method']);
+        Usuario::where('id', '=', $id)->update($datosUsuario);
 
-        $usuario=Usuario::findOrFail($id);
+        $usuario = Usuario::findOrFail($id);
         return view('usuario.edit', compact('usuario'));
-
     }
 
     /**
@@ -81,11 +70,7 @@ class UsuarioController extends Controller
      */
     public function destroy($id)
     {
-        //
         Usuario::destroy($id);
-        return redirect('usuario')->with('mensaje','Usuario Borrado');
+        return redirect('usuario')->with('mensaje', 'Usuario Borrado');
     }
-
-    
-
 }
