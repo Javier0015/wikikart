@@ -12,7 +12,8 @@
     <link rel="shortcut icon" href="{{ asset('assets/images/icon-wikikart.png') }}" type="image/svg+xml">
     <title>Unete</title>
 </head>
-
+       @extends('layouts.app')
+@section('content')
 <body>
 
     <div class="video-container">
@@ -62,4 +63,5 @@
 
 
 </body>
+                @endsection
 </html>
