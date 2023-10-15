@@ -12,6 +12,8 @@
     <link rel="shortcut icon" href="{{ asset('assets/images/icon-wikikart.png') }}" type="image/svg+xml">
     <title>Crear Usuario</title>
 </head>
+@extends('layouts.app')
+@section('content')
 <body>
 <style>
   /* Los estilos principales del login */
@@ -338,5 +340,5 @@ a:nth-child(1){
         </div>
     </div>
 </body>
-
+@endsection
 </html>
