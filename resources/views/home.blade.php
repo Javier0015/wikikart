@@ -110,11 +110,11 @@
             </li>
 
             <li class="navbar-item">
-              <a href="/create" class="navbar-link skewBg" data-nav-link>Blog</a>
+              <a href="/create" class="navbar-link skewBg" data-nav-link>Unete</a>
             </li>
 
             <li class="navbar-item">
-              <a href="/usuarios" class="navbar-link skewBg" data-nav-link>Unete!</a>
+              <a href="/usuarios" class="navbar-link skewBg" data-nav-link>Foro</a>
             </li>
 
           </ul>
