@@ -32,6 +32,7 @@
     - preload images
   -->
 </head>
+ @laravelPWA
 
 <body id="top">
 
