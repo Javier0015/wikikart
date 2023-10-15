@@ -48,7 +48,7 @@
                 </div>
                 <div class="input-box">
                     <span class="icon">
-                        <i class='bx bx-barcode-reader'></i>
+                        <i class='bx bx-barcode'  style="float: right;"></i>
                     </span>
                     <input type="text" name="codigo" value="{{ isset($usuario->codigo)?$usuario->codigo:'' }}">
                     <label for="codigo">Código amigo Switch</label>
