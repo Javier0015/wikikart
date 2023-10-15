@@ -1,4 +1,4 @@
-FORMULARIO DE EDICIÓN DE USUARIO
+
 @extends('layouts.app')
 @section('content')
 <form action="{{ url('/usuario/'.$usuario->id ) }}" method="post">
