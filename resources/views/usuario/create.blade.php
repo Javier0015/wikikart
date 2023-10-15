@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,7 +9,7 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="assets/css/style_login.css">
     <link rel="shortcut icon" href="{{ asset('assets/images/icon-wikikart.png') }}" type="image/svg+xml">
-    <title>Crear Usuario</title>
+    <title>Editar usuario</title>
 </head>
 <body>
 <style>
@@ -328,10 +327,10 @@ a:nth-child(1){
                             <input type="text" name="codigo" value="{{ $usuario->codigo }}">
                             <label for="codigo">Código amigo Switch</label>
                         </div>
-                        <input type="submit" value="Crear Usuario" class="btn">
+                        <input type="submit" value="Actualizar usuario" class="btn">
                     </form>
                     <div class="create-account">
-                        <a href="{{ url('home/') }}">Regresar</a>
+                        <a href="{{ url('usuario/') }}">Regresar</a>
                     </div>
                 </div>
             </div>
@@ -340,6 +339,3 @@ a:nth-child(1){
 </body>
 
 </html>
-
-
-
