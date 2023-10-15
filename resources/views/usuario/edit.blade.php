@@ -11,9 +11,10 @@
     <link rel="stylesheet" href="assets/css/style_login.css">
     <link rel="shortcut icon" href="{{ asset('assets/images/icon-wikikart.png') }}" type="image/svg+xml">
     <title>Editar usuario</title>
-    @extends('layouts.app')
-@section('content')
+
 </head>
+        @extends('layouts.app')
+@section('content')
 <body>
 <style>
   /* Los estilos principales del login */
