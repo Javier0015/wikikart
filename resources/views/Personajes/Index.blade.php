@@ -222,7 +222,7 @@
             </div>
             
             <!-- Logo Code -->
-            <img src="{{asset('assets/peachstyle/img/mario.png')}}" class="logo" />
+            <img src="{{asset('assets/peachstyle/img/Mario.png')}}" class="logo" />
             
             <!-- Character image Code -->
             <img src="{{asset('assets/peachstyle/img/mario18.png')}}" class="character" />
