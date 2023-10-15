@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="assets/css/style_login.css">
 
 @extends('layouts.app')
 @section('content')
