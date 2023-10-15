@@ -7,7 +7,7 @@
 @csrf
 {{ method_field('PATCH') }}
 
-
+@include('usuario.form' , ['modo'=>'Editar']);
 
 </form>
             @endsection
