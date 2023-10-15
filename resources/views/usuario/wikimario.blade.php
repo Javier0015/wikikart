@@ -114,7 +114,7 @@
             </li>
 
             <li class="navbar-item">
-              <a href="/usuarios.index" class="navbar-link skewBg" data-nav-link>Unete!</a>
+              <a href="/usuarios" class="navbar-link skewBg" data-nav-link>Unete!</a>
             </li>
 
           </ul>
